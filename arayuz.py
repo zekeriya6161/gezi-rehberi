@@ -17,7 +17,7 @@ with col1:
     locale = "tr" if dil_secimi == "Türkçe (TR)" else "en"
 
 with col2:
-    sehirler_istek = requests.get(f"{STRAPI_URL}/api/cities?locale={locale}")
+    sehirler_istek = requests.get(f"{STRAPI_URL}/api/cities?locale=tr")
     sehir_listesi = ["Tümü"] 
     
     if sehirler_istek.status_code == 200:
