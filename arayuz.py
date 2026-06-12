@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-STRAPI_URL = "https://lilly-starlet-dreamy.ngrok-free.dev"
+STRAPI_URL = "https://gezi-rehebri-yeni.onrender.com"
 
 st.set_page_config(page_title="Çok Dilli Gezi Rehberi", page_icon="🌍", layout="wide")
 
